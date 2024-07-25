@@ -71,10 +71,15 @@ Headers:		'Lato', sans-serif;
 .navigation .main-nav {
   display: table;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  /* padding-top: 10px;
+  padding-bottom: 20px; */
   position: relative;
 }
+
+.brand{
+  width: 20rem;
+}
+
 .navigation .main-nav .brand, .navigation .main-nav nav {
   display: table-cell;
   vertical-align: middle;
