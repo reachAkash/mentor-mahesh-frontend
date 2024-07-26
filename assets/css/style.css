@@ -1433,9 +1433,6 @@ input:focus, textarea:focus{
   margin: 2rem 42.5rem !important;
 }
 
-.tp-fullwidth-forcer{
-  height: 365px !important;
-}
 /* 7. Responsive */
 
 @media (min-width : 1500px) {
@@ -1713,10 +1710,6 @@ input:focus, textarea:focus{
     width: 38rem !important;
     height: 28rem !important;
     margin: 2rem 0 !important;
-  }
-
-  .tp-fullwidth-forcer{
-    height: 330px !important;
   }
 
   .owl-item{
