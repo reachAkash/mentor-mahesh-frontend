@@ -1286,7 +1286,7 @@ textarea {
 }
 
 .slider-home2{
-  background-color: rgb(250, 218, 218);
+  background-color: #EC9600;
 }
 .secondSlideHeroText{
   font-size: 24px;
@@ -1404,6 +1404,17 @@ input:focus, textarea:focus{
   background-color: white;
   color: #EC9600;
 }
+
+.hero-main{
+  padding: 2rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img{
+  width: 40%;
+}
 /* 7. Responsive */
 @media (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -1517,7 +1528,7 @@ input:focus, textarea:focus{
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .feature-box {
@@ -1641,5 +1652,17 @@ input:focus, textarea:focus{
 
   .podcast-heroimg-div{
     justify-content: center;
+  }
+
+  .hero-main{
+    flex-direction: column;
+  }
+
+  .hero-img{
+    width: 100%;
+  }
+
+  .secondSlideHeroText{
+    font-size: 17px;
   }
 }
