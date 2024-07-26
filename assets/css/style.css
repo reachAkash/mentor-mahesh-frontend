@@ -752,7 +752,8 @@ img {
   min-height: 110px;
 }
 #footer .right a {
-  color: #fff;
+  color: #EC9600;
+  font-weight: bold;
   font-size: 14px;
   float: right;
 }
@@ -1296,7 +1297,7 @@ textarea {
 }
 
 .text-black{
-  color : black;
+  color : black !important;
 }
 
 .font-thin{
@@ -1337,6 +1338,71 @@ input:focus, textarea:focus{
 
 .contact-form2{
   background-color: #59B2DC;
+}
+
+.podcast-hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+.podcast-hero2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.podcast-heroimg-div{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.podcast-heroimg2-div{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.podcast-hero div , .podcast-hero2 div{
+  width: 50%;
+}
+
+.podcast-hero-img {
+  width: 40rem;
+}
+
+.podcast-hero-header{
+  color: #59B2DC;
+}
+
+.podcast-hero-header2{
+  color: #d12881;
+}
+
+.podcast-hero-header3{
+  color: #EC9600;
+}
+
+.podcast-links{
+  background-color: #EC9600;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2px;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  color: white  ;
+  border: 1px solid #EC9600;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1.5rem;
+}
+
+.podcast-links:hover{
+  border: 1px solid #EC9600;
+  background-color: white;
+  color: #EC9600;
 }
 /* 7. Responsive */
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1561,5 +1627,19 @@ input:focus, textarea:focus{
 
   .icon-shortcut {
     display: none;
+  }
+  
+  .podcast-hero, .podcast-hero2{
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .podcast-hero div , .podcast-hero2 div{
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .podcast-heroimg-div{
+    justify-content: center;
   }
 }
