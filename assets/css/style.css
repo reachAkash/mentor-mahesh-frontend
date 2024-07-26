@@ -1418,7 +1418,6 @@ input:focus, textarea:focus{
 
 .gallery{
   display: flex;
-  overflow-x: scroll;
   gap: 4rem;
 }
 
@@ -1434,6 +1433,9 @@ input:focus, textarea:focus{
   margin: 2rem 42.5rem !important;
 }
 
+.tp-fullwidth-forcer{
+  height: 365px !important;
+}
 /* 7. Responsive */
 
 @media (min-width : 1500px) {
@@ -1530,6 +1532,14 @@ input:focus, textarea:focus{
 
   .gallery-carousel{
     margin: 0 20rem !important;
+  }
+
+  .owl-item{
+    width: 29% !important;
+  }
+
+  .hide-on-tablet{
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
@@ -1703,5 +1713,20 @@ input:focus, textarea:focus{
     width: 38rem !important;
     height: 28rem !important;
     margin: 2rem 0 !important;
+  }
+
+  .tp-fullwidth-forcer{
+    height: 330px !important;
+  }
+
+  .owl-item{
+    width: 40% !important;
+  }
+
+  .hide-on-tablet{
+    display: none !important;
+  }
+  .hide-on-mobile{
+    display: none !important;
   }
 }
